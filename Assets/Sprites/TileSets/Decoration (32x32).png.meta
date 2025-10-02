@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 741016dd22099cf4cb97bf147a2fc4b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3383792002917434436
+    second: Decoration (32x32)_0
+  - first:
+      213: -4543722707821403774
+    second: Decoration (32x32)_1
+  - first:
+      213: -5199565733991415161
+    second: Decoration (32x32)_2
+  - first:
+      213: -3888110264501408245
+    second: Decoration (32x32)_3
+  - first:
+      213: -764452432255143140
+    second: Decoration (32x32)_4
+  - first:
+      213: 934349564895429373
+    second: Decoration (32x32)_5
+  - first:
+      213: -7199247559141840532
+    second: Decoration (32x32)_6
+  - first:
+      213: 3965551964740682631
+    second: Decoration (32x32)_7
+  - first:
+      213: -3865815190046777982
+    second: Decoration (32x32)_8
+  - first:
+      213: -1787078796075219063
+    second: Decoration (32x32)_9
+  - first:
+      213: 1945359698697369444
+    second: Decoration (32x32)_10
+  - first:
+      213: -6835719247603586012
+    second: Decoration (32x32)_11
+  - first:
+      213: 8906475734983369553
+    second: Decoration (32x32)_12
+  - first:
+      213: -6083066049628219075
+    second: Decoration (32x32)_13
+  - first:
+      213: -71511753258307629
+    second: Decoration (32x32)_14
+  - first:
+      213: 3671467527133546734
+    second: Decoration (32x32)_15
+  - first:
+      213: -7082592704876231368
+    second: Decoration (32x32)_16
+  - first:
+      213: -7663383005344627389
+    second: Decoration (32x32)_17
+  - first:
+      213: -8684378258838128485
+    second: Decoration (32x32)_18
+  - first:
+      213: -4722701790023242988
+    second: Decoration (32x32)_19
+  - first:
+      213: -7542290406843830447
+    second: Decoration (32x32)_20
+  - first:
+      213: 345947851002263673
+    second: Decoration (32x32)_21
+  - first:
+      213: -6689701925465872215
+    second: Decoration (32x32)_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Decoration (32x32)_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb7c48f91b5a01d0800000000000000
+      internalID: -3383792002917434436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 159
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281ed6a554471f0c0800000000000000
+      internalID: -4543722707821403774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 159
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782062f638e67d7b0800000000000000
+      internalID: -5199565733991415161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 159
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ee7d48058aa0ac0800000000000000
+      internalID: -3888110264501408245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 159
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13bfb7209e1465f0800000000000000
+      internalID: -764452432255143140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df202a79af977fc00800000000000000
+      internalID: 934349564895429373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 113
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69a04bfc72271c90800000000000000
+      internalID: -7199247559141840532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78388b46088780730800000000000000
+      internalID: 3965551964740682631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dd3fd019dd95ac0800000000000000
+      internalID: -3865815190046777982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987cd46ad450337e0800000000000000
+      internalID: -1787078796075219063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 95
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467b739c65e4ffa10800000000000000
+      internalID: 1945359698697369444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ca94ebf85a221a0800000000000000
+      internalID: -6835719247603586012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 95
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153e1501e782a9b70800000000000000
+      internalID: 8906475734983369553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 63
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39dba648ab949ba0800000000000000
+      internalID: -6083066049628219075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfe5c57070f10ff0800000000000000
+      internalID: -71511753258307629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee84d2f734ca3f230800000000000000
+      internalID: 3671467527133546734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 63
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8354419c57395bd90800000000000000
+      internalID: -7082592704876231368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 31
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3450bac42c136a590800000000000000
+      internalID: -7663383005344627389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98f3d24cf3ea7780800000000000000
+      internalID: -8684378258838128485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 31
+        width: 54
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b20917eb7957eb0800000000000000
+      internalID: -4722701790023242988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 31
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fac33f5d6645790800000000000000
+      internalID: -7542290406843830447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978bcc1dcbd0dc400800000000000000
+      internalID: 345947851002263673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration (32x32)_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a82c57da876923a0800000000000000
+      internalID: -6689701925465872215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Decoration (32x32)_0: -3383792002917434436
+      Decoration (32x32)_1: -4543722707821403774
+      Decoration (32x32)_10: 1945359698697369444
+      Decoration (32x32)_11: -6835719247603586012
+      Decoration (32x32)_12: 8906475734983369553
+      Decoration (32x32)_13: -6083066049628219075
+      Decoration (32x32)_14: -71511753258307629
+      Decoration (32x32)_15: 3671467527133546734
+      Decoration (32x32)_16: -7082592704876231368
+      Decoration (32x32)_17: -7663383005344627389
+      Decoration (32x32)_18: -8684378258838128485
+      Decoration (32x32)_19: -4722701790023242988
+      Decoration (32x32)_2: -5199565733991415161
+      Decoration (32x32)_20: -7542290406843830447
+      Decoration (32x32)_21: 345947851002263673
+      Decoration (32x32)_22: -6689701925465872215
+      Decoration (32x32)_3: -3888110264501408245
+      Decoration (32x32)_4: -764452432255143140
+      Decoration (32x32)_5: 934349564895429373
+      Decoration (32x32)_6: -7199247559141840532
+      Decoration (32x32)_7: 3965551964740682631
+      Decoration (32x32)_8: -3865815190046777982
+      Decoration (32x32)_9: -1787078796075219063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
