@@ -1447,6 +1447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadDemovimiento: 10
+  fuerzaDeSalto: 5
 --- !u!1 &868297898
 GameObject:
   m_ObjectHideFlags: 0
