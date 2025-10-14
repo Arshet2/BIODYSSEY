@@ -5,12 +5,23 @@ public class PlayerController : MonoBehaviour
 
 //<>
 
-private Rigidbody2D rb;
+    private Rigidbody2D rb;
+    private Vector2 direccion; 
+
+    [Header("Estadisticas")]
  
     public float velocidadDemovimiento = 10;
     public float fuerzaDeSalto = 5;
 
-    private Vector2 direccion; 
+    [Header("Colisiones")]
+    public LayerMask LayerPiso;
+    public float radioDeColision;
+    public Vector2 abajo;
+
+    [Header("Booleanos")]
+    public bool puedeMover = true;
+    public bool enSuelo = true;
+    
 
 
     private void Awake() 
@@ -28,6 +39,7 @@ private Rigidbody2D rb;
     void Update()
     {
         Movimiento(); 
+        Agarres();
     }
 
 
@@ -44,7 +56,11 @@ private Rigidbody2D rb;
         MejorarSalto();
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            saltar();
+            if(enSuelo)
+            {
+              saltar();
+            }
+            
         }    
     }
 
@@ -60,6 +76,11 @@ private Rigidbody2D rb;
       }
     }
 
+    private void Agarres()
+    {
+      enSuelo = Physics2D.OverlapCircle((Vector2)transform.position + abajo, radioDeColision, LayerPiso);
+    }
+
     private void saltar()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
@@ -68,7 +89,22 @@ private Rigidbody2D rb;
 
     private void Caminar()
     {
-        rb.linearVelocity = new Vector2(direccion.x * velocidadDemovimiento, rb.linearVelocity.y);
+        if(puedeMover)
+        {
+          rb.linearVelocity= new Vector2(direccion.x * velocidadDemovimiento, rb.linearVelocity.y);
+
+          if(direccion != Vector2.zero)
+          {
+            if(direccion.x < 0 && transform.localScale.x > 0)
+            {
+               transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            }else if(direccion.x > 0 && transform.localScale.x < 0) 
+            {
+               transform.localScale = new Vector3(Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+         }
+      }
+        
     }
 
 }
