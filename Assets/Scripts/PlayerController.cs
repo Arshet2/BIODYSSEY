@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 //<>
 
     private Rigidbody2D rb;
+    private Animator anim;
     private Vector2 direccion; 
 
     [Header("Estadisticas")]
@@ -26,7 +27,8 @@ public class PlayerController : MonoBehaviour
 
     private void Awake() 
     {
-       rb = GetComponent<Rigidbody2D>(); 
+       rb = GetComponent<Rigidbody2D>();
+       anim = GetComponent<Animator>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -58,10 +60,23 @@ public class PlayerController : MonoBehaviour
         {
             if(enSuelo)
             {
+
+              anim.SetBool("jump", true);
               saltar();
             }
             
         }    
+
+        if(enSuelo)
+        {
+          anim.SetBool("fall", false);
+        }
+    }   
+
+    public void FinalizarSalto()
+    {
+      anim.SetBool("jump", false);
+      anim.SetBool("fall", true);
     }
 
     private void MejorarSalto()
@@ -95,6 +110,15 @@ public class PlayerController : MonoBehaviour
 
           if(direccion != Vector2.zero)
           {
+            if(!enSuelo)
+            {
+              anim.SetBool("fall", true);
+            }
+            else
+            {
+              anim.SetBool("run",true);
+            }
+
             if(direccion.x < 0 && transform.localScale.x > 0)
             {
                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
@@ -102,6 +126,10 @@ public class PlayerController : MonoBehaviour
             {
                transform.localScale = new Vector3(Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
+         }
+         else
+         {
+            anim.SetBool("run", false);
          }
       }
         
