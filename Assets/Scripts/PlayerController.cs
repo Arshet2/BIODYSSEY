@@ -67,16 +67,28 @@ public class PlayerController : MonoBehaviour
             
         }    
 
-        if(enSuelo)
+        float velocidad;
+          if(rb.linearVelocity.y > 0)
+            velocidad = 1;
+          else
+            velocidad = -1;
+
+        if(!enSuelo)
         {
-          anim.SetBool("fall", false);
+          
+          anim.SetFloat("velocidadVertical", velocidad);
+        
+        }
+        else
+        {
+          if(velocidad == -1)
+            FinalizarSalto();
         }
     }   
 
     public void FinalizarSalto()
     {
       anim.SetBool("jump", false);
-      anim.SetBool("fall", true);
     }
 
     private void MejorarSalto()
@@ -112,7 +124,7 @@ public class PlayerController : MonoBehaviour
           {
             if(!enSuelo)
             {
-              anim.SetBool("fall", true);
+              anim.SetBool("jump", true);
             }
             else
             {
